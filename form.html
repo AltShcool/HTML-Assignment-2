@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALT School Application Form</title>
+</head>
+<body>
+    <header>
+        <h1>ALT School Application</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="#form">Application Form</a>
+        </nav>
+    </header>
+    <main id="form">
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required><br>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Program Details</legend>
+                <label for="track">Select Track:</label>
+                <select id="track" name="track">
+                    <option value="frontend">Frontend</option>
+                    <option value="backend">Backend</option>
+                    <option value="cloud">Cloud Engineering</option>
+                </select><br>
+
+                <label for="reason">Why do you want to join?:</label><br>
+                <textarea id="reason" name="reason" rows="4" required></textarea>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Chris | Address: 123 ALT School Road</p>
+    </footer>
+</body>
+</html>
