@@ -1,4 +1,1 @@
-# HTML-Assignments
-
-- Assignment 1
-- Assignment 2
+# HTML-Assignment-2
